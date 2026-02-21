@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" fill="none">
+  <!-- Wappen-Platzhalter: Ersetzen Sie diese Datei durch Ihr echtes Wappen -->
+  <path d="M50 5 L90 25 L90 65 Q90 95 50 115 Q10 95 10 65 L10 25 Z"
+        stroke="#c9a84c" stroke-width="2" fill="#1a1f35"/>
+  <path d="M50 15 L80 30 L80 62 Q80 88 50 105 Q20 88 20 62 L20 30 Z"
+        stroke="#c9a84c" stroke-width="1" fill="none" opacity="0.4"/>
+  <text x="50" y="68" text-anchor="middle" font-family="Georgia, serif"
+        font-size="28" font-weight="bold" fill="#c9a84c">H</text>
+</svg>

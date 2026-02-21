@@ -1,0 +1,31 @@
+baseURL = "https://haussknecht.com/"
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "Haussknecht IT Consulting"
+
+[params]
+  description = "Beratung und Entwicklung für die mobile Workforce. Cloud-Kompetenz mit Datenhoheit."
+  tagline = "Qualität. Stabilität. Vertrauen."
+
+[menu]
+  [[menu.main]]
+    name = "Startseite"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Leistungen"
+    url = "/leistungen/"
+    weight = 2
+  [[menu.main]]
+    name = "Über uns"
+    url = "/ueber-uns/"
+    weight = 3
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false

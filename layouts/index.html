@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <img src="/images/wappen.svg" alt="Haussknecht Wappen" class="hero-wappen">
+      <h1>Haussknecht <span class="accent">IT Consulting</span></h1>
+      <p class="hero-tagline">{{ .Site.Params.tagline }}</p>
+      <p class="hero-description">{{ .Site.Params.description }}</p>
+      <div class="hero-actions">
+        <a href="/leistungen/" class="btn btn-primary">Unsere Leistungen</a>
+        <a href="/kontakt/" class="btn btn-secondary">Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-overview">
+  <div class="container">
+    <h2>Was uns auszeichnet</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon">&#9878;</div>
+        <h3>Mobile Workforce</h3>
+        <p>Beratung und Entwicklung für mobile Arbeitskräfte. Wir bringen Ihre Prozesse dorthin, wo Ihre Mitarbeiter arbeiten.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#9729;</div>
+        <h3>Cloud-Kompetenz</h3>
+        <p>Wir beherrschen die Cloud — und setzen sie gezielt dort ein, wo sie echten Mehrwert schafft.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#128274;</div>
+        <h3>Datenhoheit</h3>
+        <p>Ihre Daten gehören Ihnen. Wir entwickeln Lösungen, bei denen Sie die volle Kontrolle behalten.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Bereit für den nächsten Schritt?</h2>
+    <p>Lassen Sie uns gemeinsam herausfinden, wie wir Ihre IT-Herausforderungen lösen können.</p>
+    <a href="/kontakt/" class="btn btn-primary">Gespräch vereinbaren</a>
+  </div>
+</section>
+{{ end }}

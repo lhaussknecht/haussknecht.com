@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ .Site.BaseURL }}" class="logo" aria-label="Startseite">
+      <img src="/images/wappen.svg" alt="Haussknecht Wappen" class="logo-wappen">
+      <span class="logo-text">Haussknecht</span>
+    </a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-list">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>
